@@ -41,8 +41,8 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/disul",
-      href: "https://linkedin.com/in/disul",
+      value: "linkedin.com/in/disul-randinu-a04164268",
+      href: "https://www.linkedin.com/in/disul-randinu-a04164268/",
       color: "primary"
     },
     {
