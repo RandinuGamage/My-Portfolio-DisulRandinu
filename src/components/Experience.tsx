@@ -6,7 +6,7 @@ const Experience = () => {
   const experiences = [
     {
       title: "Assistant English Language Teacher",
-      company: "Holy Cross College",
+      company: "WISDOM Institute - Kalutara",
       location: "Payagala, Sri Lanka",
       period: "December 2023",
       type: "Teaching",
