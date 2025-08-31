@@ -5,8 +5,23 @@ import { Briefcase, Calendar, MapPin, Users, BookOpen } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      title: "Manager",
+      company: "WISDOM Institute",
+      location: "Kalutara, Sri Lanka",
+      period: "February 2023 - December 2023",
+      type: "Management",
+      icon: Briefcase,
+      description: "Led team operations and strategic initiatives while developing leadership and organizational skills.",
+      achievements: [
+        "Successfully managed team operations and workflow optimization",
+        "Developed strong leadership and decision-making capabilities",
+        "Enhanced project management and coordination skills",
+        "Built experience in strategic planning and execution"
+      ]
+    },
+    {
       title: "Assistant English Language Teacher",
-      company: "WISDOM Institute - Kalutara",
+      company: "Holy Cross College",
       location: "Payagala, Sri Lanka",
       period: "December 2023",
       type: "Teaching",
@@ -17,21 +32,6 @@ const Experience = () => {
         "Developed lesson plans tailored to different learning styles",
         "Improved classroom engagement and participation rates",
         "Collaborated with fellow educators to create comprehensive learning materials"
-      ]
-    },
-    {
-      title: "Manager",
-      company: "Professional Role",
-      location: "Sri Lanka",
-      period: "February 2023 - December 2023",
-      type: "Management",
-      icon: Briefcase,
-      description: "Led team operations and strategic initiatives while developing leadership and organizational skills.",
-      achievements: [
-        "Successfully managed team operations and workflow optimization",
-        "Developed strong leadership and decision-making capabilities",
-        "Enhanced project management and coordination skills",
-        "Built experience in strategic planning and execution"
       ]
     }
   ];
