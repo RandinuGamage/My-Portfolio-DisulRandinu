@@ -55,7 +55,7 @@ const Contact = () => {
       icon: Github,
       label: "GitHub",
       value: "github.com/disul",
-      href: "https://github.com/disul",
+      href: "https://github.com/RandinuGamage",
       color: "secondary"
     }
   ];
@@ -165,7 +165,7 @@ const Contact = () => {
             </div>
 
             {/* Download CV */}
-            <Card className="p-6 bg-gradient-primary/5 border border-primary/20">
+            {/* <Card className="p-6 bg-gradient-primary/5 border border-primary/20">
               <div className="flex items-center justify-between">
                 <div>
                   <h4 className="font-semibold text-primary mb-2">Download My Resume</h4>
@@ -176,7 +176,7 @@ const Contact = () => {
                   CV
                 </Button>
               </div>
-            </Card>
+            </Card> */}
           </div>
 
           {/* Contact Form */}

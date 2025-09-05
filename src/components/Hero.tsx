@@ -53,13 +53,13 @@ const Hero = () => {
               >
                 Get In Touch
               </Button>
-              <Button
+              {/* <Button
                 variant="outline"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 px-8 py-3"
               >
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
-              </Button>
+              </Button> */}
             </div>
 
             {/* Social Links */}

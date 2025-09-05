@@ -8,13 +8,13 @@ const Footer = () => {
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com/disul',
+      href: 'https://github.com/RandinuGamage',
       color: 'hover:text-primary'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com/in/disul',
+      href: 'https://www.linkedin.com/in/disul-randinu-a04164268/',
       color: 'hover:text-secondary'
     },
     {
@@ -65,7 +65,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center md:text-right">
             <p className="text-muted-foreground text-sm flex items-center justify-center md:justify-end gap-1">
-              Made with <Heart className="h-4 w-4 text-red-500 animate-pulse" /> by Disul
+              Made by Disul
             </p>
             <p className="text-muted-foreground text-xs mt-1">
               © {currentYear} All rights reserved
