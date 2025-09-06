@@ -133,14 +133,14 @@ const Projects = () => {
 
                 {/* Action Buttons */}
                 <div className="flex gap-4 pt-4">
-                  <Button className="btn-glow bg-gradient-primary hover:shadow-lg transform hover:scale-105 transition-all duration-300 text-primary-foreground">
+                  {/* <Button className="btn-glow bg-gradient-primary hover:shadow-lg transform hover:scale-105 transition-all duration-300 text-primary-foreground">
                     <ExternalLink className="mr-2 h-4 w-4" />
                     View Live Demo
                   </Button>
                   <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                     <Github className="mr-2 h-4 w-4" />
                     Source Code
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>
@@ -188,14 +188,14 @@ const Projects = () => {
                   </div>
 
                   <div className="flex gap-3 pt-2">
-                    <Button size="sm" variant="outline" className="text-xs border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground">
+                    {/* <Button size="sm" variant="outline" className="text-xs border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground">
                       <ExternalLink className="mr-1 h-3 w-3" />
                       View
                     </Button>
                     <Button size="sm" variant="outline" className="text-xs border-muted-foreground/50 text-muted-foreground hover:bg-muted">
                       <Github className="mr-1 h-3 w-3" />
                       Code
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </Card>
