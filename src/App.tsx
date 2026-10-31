@@ -1,27 +1,34 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
+import React from 'react';
+import { Navbar } from '@/components/Navbar';
+import { Hero } from '@/sections/Hero';
+import { About } from '@/sections/About';
+import { Education } from '@/sections/Education';
+import { Skills } from '@/sections/Skills';
+import { Projects } from '@/sections/Projects';
+import { Certifications } from '@/sections/Certifications';
+import { Volunteering } from '@/sections/Volunteering';
+import { Contact } from '@/sections/Contact';
+import { Footer } from '@/components/Footer';
+import { BackToTop } from '@/components/BackToTop';
 
-const queryClient = new QueryClient();
-
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+const App: React.FC = () => {
+  return (
+    <div className="drg-atmospheric-background" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <Navbar />
+      <main style={{ flex: 1 }}>
+        <Hero />
+        <About />
+        <Education />
+        <Skills />
+        <Projects />
+        <Certifications />
+        <Volunteering />
+        <Contact />
+      </main>
+      <Footer />
+      <BackToTop />
+    </div>
+  );
+};
 
 export default App;
